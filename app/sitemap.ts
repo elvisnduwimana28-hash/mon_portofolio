@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://elvisnduwimana.vercel.app/',
+      url: 'https://elvis-nduwimana-portofolio.vercel.app/', // 👈 Ton VRAI lien
       lastModified: new Date(),
     },
   ];

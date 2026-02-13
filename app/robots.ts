@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://elvisnduwimana.vercel.app/sitemap.xml',
+    sitemap: 'https://elvis-nduwimana-portofolio.vercel.app/sitemap.xml', // 👈 Ton VRAI lien
   };
 }
