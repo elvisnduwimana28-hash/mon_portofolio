@@ -1,14 +1,19 @@
-
 import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Elvis NDUWIMANA | Admin Système & Data',
   description: "Portfolio d'Elvis NDUWIMANA, Administrateur Systèmes & Réseaux, Infrastructure & Data. Automatisation, sécurité, analyse de données.",
+  
+  // ✅ CORRECTION : La vérification doit être ICI, à la racine
+  verification: {
+    google: 'ObGF0kE914gOKmq0JU8D8ubsGzW5dF10asyobByx1KQ',
+  },
+
   openGraph: {
     title: 'Elvis NDUWIMANA | Admin Système & Data',
     description: "Portfolio d'Elvis NDUWIMANA, Administrateur Systèmes & Réseaux, Infrastructure & Data. Automatisation, sécurité, analyse de données.",
-    url: 'https://elvisnduwimana.vercel.app/',
+    url: 'https://elvis-nduwimana-portofolio.vercel.app/',
     siteName: 'Elvis NDUWIMANA Portfolio',
     locale: 'fr_FR',
     type: 'website',
@@ -20,8 +25,9 @@ export const metadata: Metadata = {
         alt: 'Elvis NDUWIMANA Portfolio',
       },
     ],
-  },
-  metadataBase: new URL('https://elvisnduwimana.vercel.app'),
+  }, // Plus besoin du "as Record..." car le code est maintenant valide
+
+  metadataBase: new URL('https://elvis-nduwimana-portofolio.vercel.app/'),
   robots: {
     index: true,
     follow: true,
