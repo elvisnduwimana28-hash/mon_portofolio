@@ -107,7 +107,7 @@ export default function Home() {
               </span>
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded whitespace-nowrap">Avril 2026 - Mai 2026</span>
-                <h3 className="text-lg font-semibold text-zinc-200 whitespace-nowrap">Administrateur Système & Infrastructure IA <span className="ml-2 text-cyan-400">@ MENGHI Covering (Corse, France)</span></h3>
+                <h3 className="text-lg font-semibold text-zinc-200 whitespace-nowrap">Administrateur Système & Infrastructure IA: Stage <span className="ml-2 text-cyan-400">@ MENGHI Covering (Corse, France)</span></h3>
               </div><br/>
               <ul className="mb-2 text-zinc-300 list-disc list-inside">
                 <li><strong className="text-zinc-100">Architecture et Déploiement:</strong> Conception, installation et déploiement d'un système d'IA agentique (OpenClaw) sur un Serveur Privé Virtuel (VPS) Linux.</li><br/>
@@ -122,7 +122,7 @@ export default function Home() {
               </span>
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded">2023 - 2024</span>
-                <h3 className="text-lg font-semibold text-zinc-200">Ingénieur Admin Système <span className="ml-2 text-cyan-400">@ Mediabox SA (Burundi)</span></h3>
+                <h3 className="text-lg font-semibold text-zinc-200">Ingénieur Admin Système: CDI<span className="ml-2 text-cyan-400">@ Mediabox SA (Burundi)</span></h3>
               </div><br/>
               <ul className="mb-2 text-zinc-300 list-disc list-inside">
                 <li>Administration : Gestion serveurs (Linux/Windows), Scripting Bash et Automatisation via Git hooks.</li><br/>
@@ -138,7 +138,7 @@ export default function Home() {
               </span>
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded">2022</span>
-                <h3 className="text-lg font-semibold text-zinc-200">Développeur Fullstack (Stage) <span className="ml-2 text-cyan-400">@ AIPAD</span></h3>
+                <h3 className="text-lg font-semibold text-zinc-200">Développeur Fullstack: Stage <span className="ml-2 text-cyan-400">@ AIPAD</span></h3>
               </div><br/>
               <ul className="mb-2 text-zinc-300 list-disc list-inside">
                 <li>App Microfinance : Conception d'un système de gestion d'une microfinance.</li><br/>
