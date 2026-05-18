@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { Github, Linkedin, Download, Mail } from 'lucide-react';
 
@@ -101,6 +100,22 @@ export default function Home() {
         <section id="experience" className="w-full max-w-3xl px-4 py-12">
           <h2 className="text-2xl font-bold text-cyan-400 mb-6">Expériences</h2>
           <ol className="relative border-l border-cyan-700">
+            {/* Nouvelle Expérience */}
+            <li className="mb-10 ml-6">
+              <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-cyan-600 rounded-full ring-8 ring-black">
+                <span className="w-3 h-3 bg-white rounded-full"></span>
+              </span>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded whitespace-nowrap">Avril 2026 - Mai 2026</span>
+                <h3 className="text-lg font-semibold text-zinc-200 whitespace-nowrap">Administrateur Système & Infrastructure IA <span className="ml-2 text-cyan-400">@ MENGHI Covering (Corse, France)</span></h3>
+              </div><br/>
+              <ul className="mb-2 text-zinc-300 list-disc list-inside">
+                <li><strong className="text-zinc-100">Architecture et Déploiement:</strong> Conception, installation et déploiement d'un système d'IA agentique (OpenClaw) sur un Serveur Privé Virtuel (VPS) Linux.</li><br/>
+                <li><strong className="text-zinc-100">Orchestration et Automatisation:</strong> Développement d'un serveur métier asynchrone en Python (FastAPI) pour l'exécution de tâches complexes (génération de vidéos, recherche de clients sur LinkedIn, Envoie de mails).</li><br/>
+                <li><strong className="text-zinc-100">Conteneurisation et Sécurité:</strong> Isolation des services (Agent OpenClaw et Serveur métier Python/FastAPI) à l'aide de Docker afin de garantir la sécurité de l'infrastructure.</li>
+              </ul>
+            </li>
+
             <li className="mb-10 ml-6">
               <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-cyan-600 rounded-full ring-8 ring-black">
                 <span className="w-3 h-3 bg-white rounded-full"></span>
@@ -116,6 +131,7 @@ export default function Home() {
                 <li>Déploiment, Digitalisation & Gestion des projets : CGM, MINEDUC, PTBA, PMS, BPS, SYSPAP, EDRMS</li>
               </ul>
             </li>
+
             <li className="mb-10 ml-6">
               <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-cyan-600 rounded-full ring-8 ring-black">
                 <span className="w-3 h-3 bg-white rounded-full"></span>
