@@ -158,7 +158,20 @@ export default function Home() {
                 <span className="w-3 h-3 bg-white rounded-full"></span>
               </span>
               <div className="flex items-center gap-2 mb-1">
-                <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded">2025 - Actuellement</span>
+                <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded">2026 - Actuellement</span>
+                <span className="text-lg font-semibold text-cyan-300">Master 1 </span>
+              </div>
+              <div className="flex flex-col gap-1">
+                <span className="text-zinc-200">Data Engineer</span>
+                <span className="text-zinc-400 text-sm">Université de Corse Pasquale PAOLI</span>
+              </div>
+            </li>
+            <li className="mb-10 ml-6">
+              <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-cyan-600 rounded-full ring-8 ring-black">
+                <span className="w-3 h-3 bg-white rounded-full"></span>
+              </span>
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded">2025 - 2026</span>
                 <span className="text-lg font-semibold text-cyan-300">Licence 3</span>
               </div>
               <div className="flex flex-col gap-1">
