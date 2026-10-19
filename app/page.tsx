@@ -159,10 +159,10 @@ export default function Home() {
               </span>
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-xs bg-cyan-900 text-cyan-200 px-2 py-0.5 rounded">2026 - Actuellement</span>
-                <span className="text-lg font-semibold text-cyan-300">Master 1 </span>
+                <span className="text-lg font-semibold text-cyan-300">Master Informatique</span>
               </div>
               <div className="flex flex-col gap-1">
-                <span className="text-zinc-200">Data Engineer</span>
+                <span className="text-zinc-200">Parcours: Data Engineer</span>
                 <span className="text-zinc-400 text-sm">Université de Corse Pasquale PAOLI</span>
               </div>
             </li>
